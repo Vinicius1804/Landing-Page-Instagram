@@ -1,0 +1,11 @@
+:root{
+    /*Fontes*/
+    --dm-sans: "DM Sans", sans-serif;
+    
+    /*Cores*/
+    --black: #000000;
+    --sidebar-hover: rgba(0, 0, 0, .05);
+
+    /*Tamanho fonte*/
+    --size: 14px;
+}
