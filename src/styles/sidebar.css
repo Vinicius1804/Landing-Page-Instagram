@@ -13,37 +13,54 @@ body {
     position: fixed;
     left: 0;
     padding: 15px;
-    width: 20%;
+    width: 18%;
     height: 100vh;
     border-right: 1px solid #cecdcd;
 }
+
+
 
 .sidebar .logo img {
     width: 110px;
     height: 80px;
 }
-.sidebar-titulos{
+
+.sidebar-titulos {
     display: flex;
     align-items: center;
-    padding: 12px ;
+    padding: 12px;
     margin: 3px;
     cursor: pointer;
     width: 100%;
 }
-.sidebar-titulos:hover{
+
+.sidebar-titulos:hover {
     background-color: var(--sidebar-hover);
     border-radius: 8px;
 
 }
-.sidebar .fa, .fa-brands, .fas{
+
+.sidebar .fa,
+.fa-brands,
+.fas,
+.fa-regular,
+.fa-solid {
     font-size: 24px;
+    cursor: pointer;
 }
-.sidebar #titulo-inicial{
+.foto-sidebar{
+    border-radius: 50%;
+    width: 24px;
+    height: 24px;
+    object-fit: cover;
+}
+.sidebar #titulo-inicial {
     font-weight: bolder;
 }
+
 .sidebar-titulos a {
     margin-left: 15px;
     text-decoration: none;
-    font-size: var(--size);
+    font-size: var(--md);
     color: var(--black);
 }

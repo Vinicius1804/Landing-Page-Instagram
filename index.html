@@ -5,7 +5,17 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Instagram</title>
+    <link rel="icon" href="./src/assets/favicon-instagram.png" type="image/x-icon">
+
+    <!---->
+    <!--Folha de estilo do sidebar lateral-->
     <link rel="stylesheet" href="./src/styles/sidebar.css">
+    <!--Folha de estilos do header/stories-->
+    <link rel="stylesheet" href="./src/styles/header.css">
+    <!--Folha de estilo da main/feed-->
+    <link rel="stylesheet" href="./src/styles/main.css">
+
+    <!--Folha de estilo das variáveis-->
     <link rel="stylesheet" href="./src/styles/vars.css">
 
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
@@ -14,12 +24,16 @@
 </head>
 
 <body>
+    <!--Inicio do  sidebar lateral-->
     <section class="sidebar">
+        <!--Logo instagram-->
         <div class="logo">
             <a href="#">
                 <img src="./src/assets/logo-instagram.png" alt="Logo instagram">
             </a>
         </div>
+        <!--Fim Logo instagram-->
+
         <div class="sidebar-titulos">
             <span class="fa fa-house"></span>
             <a href="">
@@ -33,37 +47,37 @@
             </a>
         </div>
         <div class="sidebar-titulos">
-            <span class="fa fa-compass"></span>
+            <span class="fa-regular fa-compass"></span>
             <a href="">
                 <span>Explorar</span>
             </a>
         </div>
         <div class="sidebar-titulos">
-            <span class="fa fa-clapperboard"></span>
+            <span class="fa fa-video"></span>
             <a href="">
                 <span>Reels</span>
             </a>
         </div>
         <div class="sidebar-titulos">
-            <span class="fa-brands fa-facebook-messenger"></span>
+            <span class="fa-regular fa-comment"></span>
             <a href="">
                 <span>Mensagens</span>
             </a>
         </div>
         <div class="sidebar-titulos">
-            <span class="fa fa-heart"></span>
+            <span class="fa-regular fa-heart"></span>
             <a href="">
                 <span>Notificações</span>
             </a>
         </div>
         <div class="sidebar-titulos">
-            <span class="fa fa-square-plus"></span>
+            <span class="fa-regular fa-square-plus"></span>
             <a href="">
                 <span>Criar</span>
             </a>
         </div>
         <div class="sidebar-titulos">
-            <span class="fa fa-circle"></span>
+            <img class="foto-sidebar" src="src/assets/Isabele.jpg" alt="">
             <a href="">
                 <span>Perfil</span>
             </a>
@@ -74,9 +88,597 @@
                 <span>Mais</span>
             </a>
         </div>
-        
-        
     </section>
+    <!--Fim do  sidebar lateral-->
+
+
+    <!--Inicio do  header/stories-->
+    <header class="header">
+        <div class="container-stories">
+            <div class="radio-colorido">
+                <img src="./src/assets/Isabele.jpg" alt="">
+            </div>
+            <p class="nome">Isabele_.y</p>
+        </div>
+
+        <div class="container-stories">
+            <div class="radio-colorido">
+                <img src="./src/assets/Isabele.jpg" alt="">
+            </div>
+            <p class="nome">Isabele_.y</p>
+        </div>
+
+        <div class="container-stories">
+            <div class="radio-colorido">
+                <img src="./src/assets/Isabele.jpg" alt="">
+            </div>
+            <p class="nome">Isabele_.y</p>
+        </div>
+
+        <div class="container-stories">
+            <div class="radio-colorido">
+                <img src="./src/assets/Isabele.jpg" alt="">
+            </div>
+            <p class="nome">Isabele_.y</p>
+        </div>
+
+        <div class="container-stories">
+            <div class="radio-colorido">
+                <img src="./src/assets/Isabele.jpg" alt="">
+            </div>
+            <p class="nome">Isabele_.y</p>
+        </div>
+
+        <div class="container-stories">
+            <div class="radio-colorido">
+                <img src="./src/assets/Isabele.jpg" alt="">
+            </div>
+            <p class="nome">Isabele_.y</p>
+        </div>
+
+        <div class="container-stories">
+            <div class="radio-cinza">
+                <img src="./src/assets/Isabele.jpg" alt="">
+            </div>
+            <p class="nome">Isabele_.y</p>
+        </div>
+
+        <div class="container-stories">
+            <div class="radio-cinza">
+                <img src="./src/assets/Isabele.jpg" alt="">
+            </div>
+            <p class="nome">Isabele_.y</p>
+        </div>
+
+    </header>
+    <!--Fim do  header/stories-->
+
+
+    <!--Inicio do  main/feed-->
+    <main class="main-container">
+        <div class="feed-container">
+            <!--Header feed-->
+            <div class="header-feed">
+                <div class="header-feed-one">
+                    <img src="./src/assets/Isabele.jpg" alt="">
+                    <span class="nome-feed">Isabele_.y</span>
+                    <span class="fa fa-circle"></span>
+                    <span class="dias-publicado">4 d</span>
+                </div>
+                <div class="ellipsis">
+                    <span class="fa-solid fa-ellipsis"></span>
+                </div>
+            </div>
+            <!--Foto feed-->
+            <div class="foto-feed">
+                <img src="./src/assets/Isabele.jpg" alt="">
+            </div>
+
+            <!--Footer feed-->
+            <div class="footer-feed">
+                <div class="icones-footer">
+                    <div class="curtir-compartilhar">
+                        <span class="fa-solid fa-heart"></span>
+                        <span class="fa-regular fa-comment"></span>
+                        <span class="fa-regular fa-paper-plane"></span>
+                    </div>
+                    <span class="fa-regular fa-bookmark"></span>
+                </div>
+                <div class="curtidas">
+                    <div class="foto-curtidas">
+                        <img src="./src/assets/Isabele.jpg" alt="">
+                    </div>
+                    <p>10.327 curtidas</p>
+                </div>
+                <div class="frase-feed">
+                    <h1>Isabele_.y</h1> <span class="fa fa-circle"></span>
+                    <p>Be a blessing, always!</p>
+                </div>
+                <div class="ver-traducao">
+                    <h1>Ver tradução</h1>
+                </div>
+                <div class="comentario">
+                    <input type="text" name="comentario" id="comentario" placeholder="Adicionar um comentário...">
+                </div>
+            </div>
+
+        </div>
+    </main>
+    <br>
+    <hr>
+    
+    <main class="main-container">
+        <div class="feed-container">
+            <!--Header feed-->
+            <div class="header-feed">
+                <div class="header-feed-one">
+                    <img src="./src/assets/Vinicius-perfil.jpg" alt="">
+                    <span class="nome-feed">oli_vinn</span>
+                    <span class="fa fa-circle"></span>
+                    <span class="dias-publicado">4 d</span>
+                </div>
+                <div class="ellipsis">
+                    <span class="fa-solid fa-ellipsis"></span>
+                </div>
+            </div>
+            <!--Foto feed-->
+            <div class="foto-feed">
+                <img src="./src/assets/reacao.jpg" alt="">
+            </div>
+
+            <!--Footer feed-->
+            <div class="footer-feed">
+                <div class="icones-footer">
+                    <div class="curtir-compartilhar">
+                        <span class="fa-solid fa-heart"></span>
+                        <span class="fa-regular fa-comment"></span>
+                        <span class="fa-regular fa-paper-plane"></span>
+                    </div>
+                    <span class="fa-regular fa-bookmark"></span>
+                </div>
+                <div class="curtidas">
+                    <div class="foto-curtidas">
+                        <img src="./src/assets/Isabele.jpg" alt="">
+                    </div>
+                    <p>5.000 curtidas</p>
+                </div>
+                <div class="frase-feed">
+                    <h1>oli_vinn</h1> <span class="fa fa-circle"></span>
+                    <p>Tenha uma madrugada inesquecível na presença de Deus!</p>
+                </div>
+                <div class="ver-traducao">
+                    <h1>Ver tradução</h1>
+                </div>
+                <div class="comentario">
+                    <input type="text" name="comentario" id="comentario" placeholder="Adicionar um comentário...">
+                </div>
+            </div>
+
+        </div>
+    </main>
+    <br>
+    <hr>
+    
+    <main class="main-container">
+        <div class="feed-container">
+            <!--Header feed-->
+            <div class="header-feed">
+                <div class="header-feed-one">
+                    <img src="./src/assets/Isabele.jpg" alt="">
+                    <span class="nome-feed">Isabele_.y</span>
+                    <span class="fa fa-circle"></span>
+                    <span class="dias-publicado">4 d</span>
+                </div>
+                <div class="ellipsis">
+                    <span class="fa-solid fa-ellipsis"></span>
+                </div>
+            </div>
+            <!--Foto feed-->
+            <div class="foto-feed">
+                <img src="./src/assets/Isabele.jpg" alt="">
+            </div>
+
+            <!--Footer feed-->
+            <div class="footer-feed">
+                <div class="icones-footer">
+                    <div class="curtir-compartilhar">
+                        <span class="fa-solid fa-heart"></span>
+                        <span class="fa-regular fa-comment"></span>
+                        <span class="fa-regular fa-paper-plane"></span>
+                    </div>
+                    <span class="fa-regular fa-bookmark"></span>
+                </div>
+                <div class="curtidas">
+                    <div class="foto-curtidas">
+                        <img src="./src/assets/Isabele.jpg" alt="">
+                    </div>
+                    <p>5.000 curtidas</p>
+                </div>
+                <div class="frase-feed">
+                    <h1>Isabele_.y</h1> <span class="fa fa-circle"></span>
+                    <p>Be a blessing, always!</p>
+                </div>
+                <div class="ver-traducao">
+                    <h1>Ver tradução</h1>
+                </div>
+                <div class="comentario">
+                    <input type="text" name="comentario" id="comentario" placeholder="Adicionar um comentário...">
+                </div>
+            </div>
+            
+        </div>
+    </main>
+    <br>
+    <hr>
+
+    <main class="main-container">
+        <div class="feed-container">
+            <!--Header feed-->
+            <div class="header-feed">
+                <div class="header-feed-one">
+                    <img src="./src/assets/Isabele.jpg" alt="">
+                    <span class="nome-feed">Isabele_.y</span>
+                    <span class="fa fa-circle"></span>
+                    <span class="dias-publicado">4 d</span>
+                </div>
+                <div class="ellipsis">
+                    <span class="fa-solid fa-ellipsis"></span>
+                </div>
+            </div>
+            <!--Foto feed-->
+            <div class="foto-feed">
+                <img src="./src/assets/Isabele.jpg" alt="">
+            </div>
+
+            <!--Footer feed-->
+            <div class="footer-feed">
+                <div class="icones-footer">
+                    <div class="curtir-compartilhar">
+                        <span class="fa-solid fa-heart"></span>
+                        <span class="fa-regular fa-comment"></span>
+                        <span class="fa-regular fa-paper-plane"></span>
+                    </div>
+                    <span class="fa-regular fa-bookmark"></span>
+                </div>
+                <div class="curtidas">
+                    <div class="foto-curtidas">
+                        <img src="./src/assets/Isabele.jpg" alt="">
+                    </div>
+                    <p>5.000 curtidas</p>
+                </div>
+                <div class="frase-feed">
+                    <h1>Isabele_.y</h1> <span class="fa fa-circle"></span>
+                    <p>Be a blessing, always!</p>
+                </div>
+                <div class="ver-traducao">
+                    <h1>Ver tradução</h1>
+                </div>
+                <div class="comentario">
+                    <input type="text" name="comentario" id="comentario" placeholder="Adicionar um comentário...">
+                </div>
+            </div>
+            
+        </div>
+    </main>
+    <br>
+    <hr>
+    
+    <main class="main-container">
+        <div class="feed-container">
+            <!--Header feed-->
+            <div class="header-feed">
+                <div class="header-feed-one">
+                    <img src="./src/assets/Isabele.jpg" alt="">
+                    <span class="nome-feed">Isabele_.y</span>
+                    <span class="fa fa-circle"></span>
+                    <span class="dias-publicado">4 d</span>
+                </div>
+                <div class="ellipsis">
+                    <span class="fa-solid fa-ellipsis"></span>
+                </div>
+            </div>
+            <!--Foto feed-->
+            <div class="foto-feed">
+                <img src="./src/assets/Isabele.jpg" alt="">
+            </div>
+
+            <!--Footer feed-->
+            <div class="footer-feed">
+                <div class="icones-footer">
+                    <div class="curtir-compartilhar">
+                        <span class="fa-solid fa-heart"></span>
+                        <span class="fa-regular fa-comment"></span>
+                        <span class="fa-regular fa-paper-plane"></span>
+                    </div>
+                    <span class="fa-regular fa-bookmark"></span>
+                </div>
+                <div class="curtidas">
+                    <div class="foto-curtidas">
+                        <img src="./src/assets/Isabele.jpg" alt="">
+                    </div>
+                    <p>5.000 curtidas</p>
+                </div>
+                <div class="frase-feed">
+                    <h1>Isabele_.y</h1> <span class="fa fa-circle"></span>
+                    <p>Be a blessing, always!</p>
+                </div>
+                <div class="ver-traducao">
+                    <h1>Ver tradução</h1>
+                </div>
+                <div class="comentario">
+                    <input type="text" name="comentario" id="comentario" placeholder="Adicionar um comentário...">
+                </div>
+            </div>
+            
+        </div>
+    </main>
+    <br>
+    <hr>
+    
+    <main class="main-container">
+        <div class="feed-container">
+            <!--Header feed-->
+            <div class="header-feed">
+                <div class="header-feed-one">
+                    <img src="./src/assets/Isabele.jpg" alt="">
+                    <span class="nome-feed">Isabele_.y</span>
+                    <span class="fa fa-circle"></span>
+                    <span class="dias-publicado">4 d</span>
+                </div>
+                <div class="ellipsis">
+                    <span class="fa-solid fa-ellipsis"></span>
+                </div>
+            </div>
+            <!--Foto feed-->
+            <div class="foto-feed">
+                <img src="./src/assets/Isabele.jpg" alt="">
+            </div>
+
+            <!--Footer feed-->
+            <div class="footer-feed">
+                <div class="icones-footer">
+                    <div class="curtir-compartilhar">
+                        <span class="fa-solid fa-heart"></span>
+                        <span class="fa-regular fa-comment"></span>
+                        <span class="fa-regular fa-paper-plane"></span>
+                    </div>
+                    <span class="fa-regular fa-bookmark"></span>
+                </div>
+                <div class="curtidas">
+                    <div class="foto-curtidas">
+                        <img src="./src/assets/Isabele.jpg" alt="">
+                    </div>
+                    <p>5.000 curtidas</p>
+                </div>
+                <div class="frase-feed">
+                    <h1>Isabele_.y</h1> <span class="fa fa-circle"></span>
+                    <p>Be a blessing, always!</p>
+                </div>
+                <div class="ver-traducao">
+                    <h1>Ver tradução</h1>
+                </div>
+                <div class="comentario">
+                    <input type="text" name="comentario" id="comentario" placeholder="Adicionar um comentário...">
+                </div>
+            </div>
+            
+        </div>
+    </main>
+    <br>
+    <hr>
+    
+    <main class="main-container">
+        <div class="feed-container">
+            <!--Header feed-->
+            <div class="header-feed">
+                <div class="header-feed-one">
+                    <img src="./src/assets/Isabele.jpg" alt="">
+                    <span class="nome-feed">Isabele_.y</span>
+                    <span class="fa fa-circle"></span>
+                    <span class="dias-publicado">4 d</span>
+                </div>
+                <div class="ellipsis">
+                    <span class="fa-solid fa-ellipsis"></span>
+                </div>
+            </div>
+            <!--Foto feed-->
+            <div class="foto-feed">
+                <img src="./src/assets/Isabele.jpg" alt="">
+            </div>
+
+            <!--Footer feed-->
+            <div class="footer-feed">
+                <div class="icones-footer">
+                    <div class="curtir-compartilhar">
+                        <span class="fa-solid fa-heart"></span>
+                        <span class="fa-regular fa-comment"></span>
+                        <span class="fa-regular fa-paper-plane"></span>
+                    </div>
+                    <span class="fa-regular fa-bookmark"></span>
+                </div>
+                <div class="curtidas">
+                    <div class="foto-curtidas">
+                        <img src="./src/assets/Isabele.jpg" alt="">
+                    </div>
+                    <p>5.000 curtidas</p>
+                </div>
+                <div class="frase-feed">
+                    <h1>Isabele_.y</h1> <span class="fa fa-circle"></span>
+                    <p>Be a blessing, always!</p>
+                </div>
+                <div class="ver-traducao">
+                    <h1>Ver tradução</h1>
+                </div>
+                <div class="comentario">
+                    <input type="text" name="comentario" id="comentario" placeholder="Adicionar um comentário...">
+                </div>
+            </div>
+            
+        </div>
+    </main>
+    <br>
+    <hr>
+    
+    <main class="main-container">
+        <div class="feed-container">
+            <!--Header feed-->
+            <div class="header-feed">
+                <div class="header-feed-one">
+                    <img src="./src/assets/Isabele.jpg" alt="">
+                    <span class="nome-feed">Isabele_.y</span>
+                    <span class="fa fa-circle"></span>
+                    <span class="dias-publicado">4 d</span>
+                </div>
+                <div class="ellipsis">
+                    <span class="fa-solid fa-ellipsis"></span>
+                </div>
+            </div>
+            <!--Foto feed-->
+            <div class="foto-feed">
+                <img src="./src/assets/Isabele.jpg" alt="">
+            </div>
+
+            <!--Footer feed-->
+            <div class="footer-feed">
+                <div class="icones-footer">
+                    <div class="curtir-compartilhar">
+                        <span class="fa-solid fa-heart"></span>
+                        <span class="fa-regular fa-comment"></span>
+                        <span class="fa-regular fa-paper-plane"></span>
+                    </div>
+                    <span class="fa-regular fa-bookmark"></span>
+                </div>
+                <div class="curtidas">
+                    <div class="foto-curtidas">
+                        <img src="./src/assets/Isabele.jpg" alt="">
+                    </div>
+                    <p>5.000 curtidas</p>
+                </div>
+                <div class="frase-feed">
+                    <h1>Isabele_.y</h1> <span class="fa fa-circle"></span>
+                    <p>Be a blessing, always!</p>
+                </div>
+                <div class="ver-traducao">
+                    <h1>Ver tradução</h1>
+                </div>
+                <div class="comentario">
+                    <input type="text" name="comentario" id="comentario" placeholder="Adicionar um comentário...">
+                </div>
+            </div>
+            
+        </div>
+    
+    </main>
+    <br>
+    <hr>
+    
+    <main class="main-container">
+        <div class="feed-container">
+            <!--Header feed-->
+            <div class="header-feed">
+                <div class="header-feed-one">
+                    <img src="./src/assets/Isabele.jpg" alt="">
+                    <span class="nome-feed">Isabele_.y</span>
+                    <span class="fa fa-circle"></span>
+                    <span class="dias-publicado">4 d</span>
+                </div>
+                <div class="ellipsis">
+                    <span class="fa-solid fa-ellipsis"></span>
+                </div>
+            </div>
+            <!--Foto feed-->
+            <div class="foto-feed">
+                <img src="./src/assets/Isabele.jpg" alt="">
+            </div>
+
+            <!--Footer feed-->
+            <div class="footer-feed">
+                <div class="icones-footer">
+                    <div class="curtir-compartilhar">
+                        <span class="fa-solid fa-heart"></span>
+                        <span class="fa-regular fa-comment"></span>
+                        <span class="fa-regular fa-paper-plane"></span>
+                    </div>
+                    <span class="fa-regular fa-bookmark"></span>
+                </div>
+                <div class="curtidas">
+                    <div class="foto-curtidas">
+                        <img src="./src/assets/Isabele.jpg" alt="">
+                    </div>
+                    <p>5.000 curtidas</p>
+                </div>
+                <div class="frase-feed">
+                    <h1>Isabele_.y</h1> <span class="fa fa-circle"></span>
+                    <p>Be a blessing, always!</p>
+                </div>
+                <div class="ver-traducao">
+                    <h1>Ver tradução</h1>
+                </div>
+                <div class="comentario">
+                    <input type="text" name="comentario" id="comentario" placeholder="Adicionar um comentário...">
+                </div>
+            </div>
+            
+        </div>
+    </main>
+    <br>
+    <hr>
+    
+    <main class="main-container">
+        <div class="feed-container">
+            <!--Header feed-->
+            <div class="header-feed">
+                <div class="header-feed-one">
+                    <img src="./src/assets/Isabele.jpg" alt="">
+                    <span class="nome-feed">Isabele_.y</span>
+                    <span class="fa fa-circle"></span>
+                    <span class="dias-publicado">4 d</span>
+                </div>
+                <div class="ellipsis">
+                    <span class="fa-solid fa-ellipsis"></span>
+                </div>
+            </div>
+            <!--Foto feed-->
+            <div class="foto-feed">
+                <img src="./src/assets/Isabele.jpg" alt="">
+            </div>
+
+            <!--Footer feed-->
+            <div class="footer-feed">
+                <div class="icones-footer">
+                    <div class="curtir-compartilhar">
+                        <span class="fa-solid fa-heart"></span>
+                        <span class="fa-regular fa-comment"></span>
+                        <span class="fa-regular fa-paper-plane"></span>
+                    </div>
+                    <span class="fa-regular fa-bookmark"></span>
+                </div>
+                <div class="curtidas">
+                    <div class="foto-curtidas">
+                        <img src="./src/assets/Isabele.jpg" alt="">
+                    </div>
+                    <p>5.000 curtidas</p>
+                </div>
+                <div class="frase-feed">
+                    <h1>Isabele_.y</h1> <span class="fa fa-circle"></span>
+                    <p>Be a blessing, always!</p>
+                </div>
+                <div class="ver-traducao">
+                    <h1>Ver tradução</h1>
+                </div>
+                <div class="comentario">
+                    <input type="text" name="comentario" id="comentario" placeholder="Adicionar um comentário...">
+                </div>
+            </div>
+            
+        </div>
+    </main>
+    <br>
+    <hr>
+    
+    <!--Fim do  main/feed-->
+
+    
 </body>
 
 </html>

@@ -4,8 +4,10 @@
     
     /*Cores*/
     --black: #000000;
+    --gray: #b3b3b3;
     --sidebar-hover: rgba(0, 0, 0, .05);
 
     /*Tamanho fonte*/
-    --size: 14px;
+    --md: 14px;
+    --sm: 10px;
 }
