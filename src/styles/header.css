@@ -1,6 +1,6 @@
 .header {
-display: flex;
-    width: 50vw;
+    display: flex;
+    width: 55vw;
     margin: auto;
     gap: 20px;
     padding-top: 20px;
@@ -39,10 +39,11 @@ display: flex;
     width: 58px;
     height: 58px;
     border-radius: 50%;
-    border: 2px solid #fff ;
+    border: 2px solid #fff;
     object-fit: cover;
-    
+
 }
-.container-stories .nome{
+
+.container-stories .nome {
     font-size: var(--sm);
 }

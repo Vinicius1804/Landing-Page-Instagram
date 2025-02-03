@@ -1,0 +1,150 @@
+.sidebar-right {
+    display: block;
+    position: absolute;
+    left: 80%;
+    top: 10px;
+    width: 210px;
+    height: 44px;
+}
+
+.sidebar-right .perfil {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+}
+
+.perfil-mudar {
+    display: flex;
+    align-items: center;
+
+}
+
+.sidebar-right .perfil img {
+    width: 40px;
+    height: 40px;
+    object-fit: cover;
+    border-radius: 50%;
+}
+
+.sidebar-right .perfil .nome-perfil-sidebar-right {
+    margin-left: 10px;
+    font-weight: 700;
+    font-size: 12px;
+    cursor: pointer;
+    
+}
+
+.sidebar-right .perfil .gray-text {
+    color: #989797;
+    font-weight: 500;
+    margin-top: 2px;
+}
+
+.sidebar-right .perfil .bnt-mudar-nome {
+    background: none;
+    border: none;
+    color: var(--blue);
+    font-weight: 500;
+    font-size: 12px;
+    cursor: pointer;
+}
+
+.sidebar-right .perfil .bnt-mudar-nome:hover {
+    color: #00376b;
+}
+
+.sugestao {
+    display: flex;
+    justify-content: space-between;
+    margin: 25px 0;
+}
+
+.sugestao p {
+    font-weight: 600;
+    color: #737373;
+}
+
+.sugestao button {
+    background: none;
+    border: none;
+    font-weight: 600;
+    font-size: 12px;
+    cursor: pointer;
+}
+
+.sugestao button:hover {
+    color: #737373;
+}
+
+.sugestoes-seguir {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-bottom: 10px;
+}
+
+.sugestoes-seguir img {
+    width: 40px;
+    height: 40px;
+    object-fit: cover;
+    border-radius: 50%;
+
+}
+
+.nome-perfil p {
+    margin-left: 10px;
+    font-weight: 700;
+    font-size: 12px;
+    
+}
+.nome-perfil .nome-seguir{
+    cursor: pointer;
+}
+.nome-perfil .gray-text {
+    color: #989797;
+    font-weight: 500;
+    margin-top: 2px;
+}
+
+.sugestoes-seguir button {
+    background: none;
+    border: none;
+    color: var(--blue);
+    font-weight: 500;
+    font-size: 12px;
+    cursor: pointer;
+}
+
+.sugestoes-seguir button:hover {
+    color: #00376b;
+}
+
+.sidebar-footer{
+    width: 243px;
+    padding-top: 10px;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    gap: 2px;
+}
+.sidebar-footer a{
+    color: #c7c7c7;
+    font-size: var(--sm);
+    align-items: center;
+    text-decoration: none;
+    padding-top: 2px;
+    
+}
+.sidebar-footer a:hover{
+    text-decoration: underline;
+
+}
+.sidebar-footer .fa{
+    display: flex;
+    align-items: center;
+    justify-self: center;
+    font-size: 2px;
+    color: #c7c7c7;
+    padding-top: 2px;
+}
