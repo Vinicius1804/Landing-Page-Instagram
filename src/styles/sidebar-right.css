@@ -32,7 +32,7 @@
     font-weight: 700;
     font-size: 12px;
     cursor: pointer;
-    
+
 }
 
 .sidebar-right .perfil .gray-text {
@@ -96,11 +96,13 @@
     margin-left: 10px;
     font-weight: 700;
     font-size: 12px;
-    
+
 }
-.nome-perfil .nome-seguir{
+
+.nome-perfil .nome-seguir {
     cursor: pointer;
 }
+
 .nome-perfil .gray-text {
     color: #989797;
     font-weight: 500;
@@ -120,7 +122,7 @@
     color: #00376b;
 }
 
-.sidebar-footer{
+.sidebar-footer {
     width: 243px;
     padding-top: 10px;
     display: flex;
@@ -128,23 +130,38 @@
     align-items: center;
     gap: 2px;
 }
-.sidebar-footer a{
+
+.sidebar-footer a {
     color: #c7c7c7;
     font-size: var(--sm);
     align-items: center;
     text-decoration: none;
     padding-top: 2px;
-    
+
 }
-.sidebar-footer a:hover{
+
+.sidebar-footer a:hover {
     text-decoration: underline;
 
 }
-.sidebar-footer .fa{
+
+.sidebar-footer .fa {
     display: flex;
     align-items: center;
     justify-self: center;
     font-size: 2px;
     color: #c7c7c7;
     padding-top: 2px;
+}
+
+.sidebar-footer .copyright {
+    margin-top: 20px;
+    color: #c7c7c7de;
+    font-weight: 100;
+    font-size: 12px;
+}
+
+.sidebar-footer .copyright .fa-copyright {
+    font-size: var(--sm);
+
 }
